@@ -1,4 +1,14 @@
-#272b33
+.container {
+  background-color: #272b33;
+  height: 100vh;
+}
+#root {
+  background-color: black;
+}
 
-
-#010409
+.negativo {
+  color: #0d6efd;
+}
+.positivo {
+  color: #dc3545;
+}
