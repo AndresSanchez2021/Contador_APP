@@ -9,7 +9,7 @@ const CACHE_ELEMENTS = [
 ];
 
 //nombre que le vamos a poner al cahe
-const CACHE_NAME = "v2_cache_contador_react";
+const CACHE_NAME = "v3_cache_contador_react";
 
 self.addEventListener("install", (e)=>{
     e.waitUntil(
