@@ -2,7 +2,7 @@
     "name":"Contador App React",
     "short_name":"Count React",
     "description":"Este es la primera aplicacion que estoy realizando con react para aplicar PWA",
-    "background_color":"#0d6efd",
+    "background_color":"#198754",
     "theme_color":"#198754",
     "start_url":"./",
     "scope":"./",
