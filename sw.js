@@ -9,8 +9,10 @@ const CACHE_ELEMENTS = [
 ];
 
 //nombre que le vamos a poner al cahe
-const CACHE_NAME = "v3_cache_contador_react";
+const CACHE_NAME = "v3  _cache_contador_react";
 
+
+    
 self.addEventListener("install", (e)=>{
     e.waitUntil(
         caches.open(CACHE_NAME).then(cache=>{
@@ -39,7 +41,7 @@ self.addEventListener("activate", (e)=>{
 
 
 self.addEventListener("fetch", (e)=>{
-    e.respondWith(()=>{
-        caches.match(e.request).then((res)=>(res ? res: fetch(e.request)));
-    })
+    e.respondWith(
+        caches.match(e.request).then((res)=>(res ? res: fetch(e.request)))
+    )
 });  
